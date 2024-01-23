@@ -48,8 +48,8 @@ def generate_gpt2_response(prompt_input):
 
 def main():
     # Set Replicate API token
-    replicate_api = "r8_UT1Zofte3rCH5CzEYooyEtMgUxZKDbY1lLn3P"
-    #replicate_api = "r8_0QpEN4c6M8jTFIT7cWWru7FpbpfeKvx0PaWaC"
+    #replicate_api = "r8_UT1Zofte3rCH5CzEYooyEtMgUxZKDbY1lLn3P"
+    replicate_api = "r8_0QpEN4c6M8jTFIT7cWWru7FpbpfeKvx0PaWaC"
     os.environ["REPLICATE_API_TOKEN"] = replicate_api
 
     # App title
