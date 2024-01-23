@@ -131,8 +131,8 @@ def main():
         st.write("Feel free to interact with the chatbot on the 'Home' page!")
 
         # Add another image in the About Us page
-        about_us_image = Image.open("C:/Users/Sachin/OneDrive/Documents/New/chatbot.png")
-        st.image(about_us_image, caption="Another Image", use_column_width=True)
+        #about_us_image = Image.open("C:/Users/Sachin/OneDrive/Documents/New/chatbot.png")
+        #st.image(about_us_image, caption="Another Image", use_column_width=True)
 
 if __name__ == "__main__":
     main()
